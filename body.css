@@ -1,0 +1,234 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CDE8E5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    margin: 20px;
+    color: #CDE8E5;
+    font-family: myfont;
+    
+}
+
+.menu{
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+nav { 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+    background-color: #01204E;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li { 
+    float: left;
+}
+
+nav ul li a {
+    color: #FFA27F;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+     text-decoration: underline;
+    
+}
+
+section {
+    overflow: auto;
+    margin: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    img {
+        width:40%;
+        height:40%;
+        overflow: fixed;
+    }
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    overflow: fixed;
+    text-decoration: overline; color:#01204E;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tngah{
+    width: 100%;
+    text-align: center;
+    p{
+        font-size: 13px;
+    }
+}
+
+.mmbrs{
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    p{
+        font-size: 15px;
+    }
+    margin-bottom: 20px;
+}
+
+.canva h2{
+    text-decoration-line: overline;
+}
+
+.gp{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    p{
+        font-size: 15px;
+    }
+}
+
+.appro{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    p{
+        font-size: 15px;
+    }
+}
+
+.dsgrp{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    p{
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 15px;
+    } 
+}
+
+.ctnt
+{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    p{
+        font-size: 15px;
+    }
+}
+
+.grphc{
+    img{
+        width: 10cm;
+        margin: 50px;
+        margin-top: 0;
+    }
+}
+
+h4{
+    font-size: 16px;
+}
+
+h3{
+    color: #d94f42;
+    text-decoration: none;
+    font-family: myfont2;
+    margin-bottom: 15px;
+}
+
+h3 a:hover{
+    text-decoration: underline;
+    color: #d94f42;
+
+}
+
+.canva{
+    width: 80%;
+    display: inline-block;
+    h3{
+        font-size: 35px;
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    .wrapper {
+        width: 90%;
+    }
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .nav .menu{
+        width: 100%;
+        margin: 0;
+    }
+    .nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    .nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    section {
+        display: block;
+    }
+    section img{
+        display: block;
+    }
+    .canva{
+        width: 90%;
+        display: block;
+    }
+}
